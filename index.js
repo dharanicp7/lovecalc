@@ -6,7 +6,7 @@ function cl(){
   var mess=document.querySelector(".message");
   var percent=document.querySelector(".random-percent");
   var dk=["Dharani","dharani","Dharani kiran","dharani kiran"];
-  var ka=["Krithika","krithi","krithika"];
+  var ka=["Krithika","krithi","krithika","Krithi"];
   if(yourName==""||crushName==""){
     percent.innerHTML="";
     mess.innerHTML="Oops,Insert a proper name!";
