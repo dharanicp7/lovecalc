@@ -1,0 +1,69 @@
+*.lc{
+margin: auto;
+padding-top: 10px;
+box-sizing: border-box;
+}
+.content{
+  position: relative;
+  background: #c2a7ab;
+  width: 350px;
+  height: 500px;
+  margin-left: 38%;
+  background: #eb8697 linear-gradient(to bottom,#eb8697,#f5b3bd);
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px;
+  box-sizing: border-box;
+}
+h1,.button,input,.random-percent,.message{
+  text-align: center;
+  font-family: "Lucida Handwriting", "Bruh Script M7", cursive;
+  padding-top: 20px;
+}
+.yn, .cn{
+  width: 80%;
+margin-left: 8%;
+margin-top: 10px;
+padding: 10px;
+}
+body{
+  background: url("loveCalc.jpg") top center no-repeat;
+  background-size: cover;
+}
+.bts{
+  text-align: center;
+}
+.button {
+  margin:auto;
+  padding: 10px;
+  margin-top: 80px;
+  transition-duration: 0.4s;
+  color: #fff;
+  background-color: #e37486;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.result{
+  margin-bottom: 20px;
+}
+@media screen and (max-width:640px) {
+  body{
+    background: url("loveCalc2.jpg") top center no-repeat;
+    background-size: 640px 800px;
+  }
+  .content{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .button{
+    margin-top: 30px;
+  }
+.result{
+  margin-top: 0%;
+}
+}
