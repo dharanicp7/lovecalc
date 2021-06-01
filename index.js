@@ -5,15 +5,10 @@ function cl(){
   var crushName=document.querySelector(".lc input.cn").value;
   var mess=document.querySelector(".message");
   var percent=document.querySelector(".random-percent");
-  var dk=["Dharani","dharani","Dharani kiran","dharani kiran"];
-  var ka=["Krithika","krithi","krithika","Krithi"];
   if(yourName==""||crushName==""){
     percent.innerHTML="";
     mess.innerHTML="Oops,Insert a proper name!";
-  }else if(dk.includes(yourName)&& ka.includes(crushName) || dk.includes(crushName)&& ka.includes(yourName)){
-    percent.innerHTML="100%";
-    mess.innerHTML="Soulmates,They are made for each other";
-    } else {
+  }else {
   var loveScore = Math.random();
   loveScore*=100;
   loveScore=Math.floor(loveScore)+1;
